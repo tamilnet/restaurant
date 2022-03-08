@@ -1,0 +1,23 @@
+#navigation-bar{
+
+  font-family: 'Merienda', cursive;
+  
+
+}
+
+.flag{
+  margin-top: 10px;
+  
+}
+
+.nav-item{
+
+margin-left: 30px;
+
+}
+
+.nav-item .flag{
+
+margin-left: 0px;
+
+}
