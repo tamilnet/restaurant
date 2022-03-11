@@ -1,22 +1,18 @@
-h2{
+/*Body*/
 
-text-align: center;
-font-family: 'Merienda', cursive;
-/*margin-top: 0;
-margin-bottom: 0.5rem; */
-
-}
-
-#navigation-bar{
+body{
 
   font-family: 'Merienda', cursive;
-  
+  text-align: center;
 
 }
 
+/* Navigation Bar */
+
 .flag{
+  
   margin-top: 10px;
-  margin-left: 0px;
+  margin-left: 0px !important;
   
 } 
 
@@ -26,22 +22,38 @@ margin-left: 20px;
 
 }
 
-.flag .nav-item{
-
-margin-left: 5px;
-
-}
-
-/*.carousel-item{
-
-position: absolute;
-
-}
+/* Welcome */
 
 .carousel-caption{
 
-position: relative;
-top: 50px;
+top: 400px !important;
+
+} 
+
+/* Restaurant */
+
+#restaurant{
+
+margin: 0px 200px;
+
+}
+
+.restaurant-heading{
+
+margin-top: 70px;
+margin-bottom: 30px;
+
+}
+
+.restaurant-content1{
+
+text-align: left;
+
+}
+
+/*.img-one{
+
+float: right;
+
 
 } */
-
