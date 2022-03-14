@@ -4,6 +4,7 @@ body{
 
   font-family: 'Merienda', cursive;
   text-align: center;
+  font-size: 15px;
 
 }
 
@@ -48,12 +49,20 @@ margin-bottom: 30px;
 .restaurant-content1{
 
 text-align: left;
+padding-left: 15px;
+padding-right: 15px;
+
 
 }
 
-/*.img-one{
+.img-one{
+  width: 50%;
+}
 
-float: right;
+.restaurant-content2{
 
-
-} */
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+  }
