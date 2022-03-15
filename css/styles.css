@@ -66,3 +66,41 @@ padding-right: 15px;
   padding-right: 15px;
   
   }
+
+  /* Menu */
+
+#menu{
+
+  margin: 0px 200px;
+  
+  }
+  
+  .menu-heading{
+  
+  margin-top: 70px;
+  margin-bottom: 30px;
+  
+  }
+
+  .card{
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
+
+  .card-title{
+
+   text-align: left;
+   margin-top: 15px;
+   margin-bottom: 15px;
+
+  }
+
+  .list-group{
+
+    text-align: left;
+
+  }
+
+  
