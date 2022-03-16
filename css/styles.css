@@ -5,6 +5,7 @@ body{
   font-family: 'Merienda', cursive;
   text-align: center;
   font-size: 15px;
+  line-height: 1.5;
 
 }
 
@@ -84,10 +85,11 @@ padding-right: 15px;
 
   .card{
 
-    margin-left: 5px;
-    margin-right: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+  
 
-  }
+  } 
 
   .card-title{
 
