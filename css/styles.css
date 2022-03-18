@@ -106,5 +106,5 @@ padding-right: 15px;
   }
 
   .zoom:hover {
-    transform: scale(0.75);
+    transform: scale(1.5);
   }
