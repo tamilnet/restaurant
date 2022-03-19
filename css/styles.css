@@ -99,12 +99,33 @@ padding-right: 15px;
 
   }
 
+  .card-img-top{
+
+    height: 200px;
+
+  }
+
   .list-group{
 
     text-align: left;
 
   }
 
-  .zoom:hover {
-    transform: scale(1.5);
-  }
+  .card-body{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    padding: 1.25rem;
+}
+
+.card-body:hover{
+
+ width: 360px;
+ height: 350px;
+
+}
+    
