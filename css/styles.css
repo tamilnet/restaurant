@@ -70,6 +70,7 @@ padding-right: 15px;
 
   /* Menu */
 
+  
 #menu{
 
   margin: 0px 200px;
@@ -95,7 +96,8 @@ padding-right: 15px;
 
    text-align: left;
    margin-top: 15px;
-   margin-bottom: 15px;
+   margin-bottom: 0px;
+   padding-left: 12px;
 
   }
 
@@ -108,6 +110,7 @@ padding-right: 15px;
   .list-group{
 
     text-align: left;
+    padding: 12px 20px 12px 20px;
 
   }
 
@@ -122,10 +125,30 @@ padding-right: 15px;
     padding: 1.25rem;
 }
 
-.card-body:hover{
+/* Reservation */
 
- width: 360px;
- height: 350px;
+.reservation-heading{
+
+  margin-top: 70px;
+  margin-bottom: 30px;
 
 }
-    
+
+.reserve-img{
+
+ opacity: 0.4;
+
+}
+
+.reserve-content{
+
+  position: relative;
+
+}
+
+.reserve-text{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
