@@ -140,7 +140,7 @@ padding-right: 15px;
 
 }
 
-.reserve-content{
+.reserve-content1{
 
   position: relative;
 
@@ -151,4 +151,8 @@ padding-right: 15px;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.text-center{
+  text-align: center;
 }

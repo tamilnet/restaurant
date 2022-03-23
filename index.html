@@ -280,7 +280,7 @@
 
     <h2 class="reservation-heading">~Reservation~</h2>
 
-    <div class="row reserve-content">
+    <div class="row reserve-content1">
 
       <div class="col-lg-12 " aos-animate data-aos="fade-up" data-aos-duration="1200">
 
@@ -289,11 +289,50 @@
         <div class="col-lg-12 reserve-text">
 
           <h1>Timetables</h1>
+          <div class="row">
+
+            <div class="col-6 reserve-content2">
+
+              <h2 class="text-center">Lunch</h2>
+              <h5 class="text-center">12:00 ~ 15:00</h5>
+
+            </div>
+
+            <div class="col-lg-6 reserve-content2">
+
+              <h2 class="text-center">Dinner</h2>
+              <h5 class="text-center">19:30 ~ 23:30</h5>
+
+            </div>
+
+          </div>
 
         </div>
 
       </div>
 
+    </div>
+    <br>
+    
+    <div class="row bg-light">
+      <div class="col">
+        <form>
+         <h3>Reserve</h3>
+         
+          <div>
+            <label for="start">Date</label>
+
+            <input type="date" id="start" name="trip-start"
+                   value="2018-07-22"
+                   min="2018-01-01" max="2018-12-31">
+            
+          </div>
+
+          <div>
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+          </div>
+        </form>
+      </div>
     </div>
 
   </section>
