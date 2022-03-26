@@ -178,3 +178,44 @@ margin-right: 200px;
 label{
   margin-bottom: 0.5rem;
 }
+
+/* Location */
+
+#location{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.location-heading{
+  margin-top: 70px;
+  margin-bottom: 30px;
+  text-align: center;
+  
+}
+
+.container{
+  text-align: left;
+}
+
+.address{
+  text-align: left;
+  padding-left: 10px;
+}
+
+.col-9{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Footer */
+
+.footer-section{
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.social-icon{
+  height: 2px;
+  width: 4px;
+}
