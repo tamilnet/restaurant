@@ -289,7 +289,7 @@
         <div class="col-lg-12 reserve-text">
 
           <h1>Timetables</h1>
-          <div class="row">
+          <div class="row time-table">
 
             <div class="col-6 reserve-content2">
 
@@ -313,28 +313,69 @@
 
     </div>
     <br>
-    
-    <div class="row bg-light">
-      <div class="col">
-        <form>
-         <h3>Reserve</h3>
-         
-          <div>
-            <label for="start">Date</label>
+    <form>
+      <div class="row bg-light form-section">
 
-            <input type="date" id="start" name="trip-start"
-                   value="2018-07-22"
-                   min="2018-01-01" max="2018-12-31">
-            
-          </div>
+        <div class="col-lg-6 form-row">
+          <h3>Reserve</h3>
+          <label for="start">Date</label>
 
-          <div>
-            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-          </div>
-        </form>
+          <input type="date" id="start" class="form-control">
+
+        </div>
+
+        <div class="col-lg-6 form-row">
+          <h3>Details</h3>
+          <label>Name</label>
+          <input type="text" class="form-control" placeholder="Name">
+        </div>
+
+        <div class="col-lg-6 form-row">
+
+          <label for="appt">Timetables</label>
+
+          <input type="time" id="appt" class="form-control" name="appt" min="12:00" max="24:00" required>
+
+        </div>
+
+        <div class="col-lg-6 form-row">
+          <label for="email">Email</label>
+
+          <input type="email" id="email" class="form-control" size="30" placeholder="Email" required>
+
+        </div>
+
+        <div class="col-lg-6 form-row">
+          <label for="tentacles">Number of guests</label>
+
+          <input type="number" id="tentacles" class="form-control" name="tentacles" placeholder="Number of guests"
+            min="1" max="100">
+
+        </div>
+
+        <div class="col-lg-6 form-row">
+          <label for="phone">Phone number</label>
+
+          <input type="tel" id="phone" class="form-control" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            placeholder="Phone number" required>
+        </div>
+
+        <div class="col-lg-12 form-row">
+          <label for="story">Further requests</label>
+
+          <textarea id="story" name="story" class="form-control" rows="4" cols="33">Further requests</textarea>
+        </div>
       </div>
-    </div>
 
+      <div class="row bg-light form-section ">
+        <div class="col-lg-4 d-grid gap-2  form-row">
+          <button type="submit" class="btn btn-secondary btn-block">Reserve</button>
+        </div>
+      </div>
+
+
+
+    </form>
   </section>
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
