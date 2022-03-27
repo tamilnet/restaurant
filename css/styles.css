@@ -6,8 +6,8 @@ body{
   text-align: center;
   font-size: 15px;
   line-height: 1.5;
-
-}
+  width: 100%;
+  }
 
 /* Navigation Bar */
 
@@ -15,8 +15,8 @@ body{
   
   margin-top: 10px;
   margin-left: 0px !important;
-  
-} 
+  } 
+
 .navbar-collapse{
   text-align: right;
 }
@@ -24,30 +24,31 @@ body{
 .nav-item{
 
 margin-left: 20px;
-
 }
 
 /* Welcome */
 
+.margin-alignment{
+  width: 70%;
+  margin: auto;
+}
+
+.carousel-inner{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
 .carousel-caption{
 
 top: 400px !important;
-
 } 
 
 /* Restaurant */
-
-#restaurant{
-
-margin: 0px 200px;
-
-}
 
 .restaurant-heading{
 
 margin-top: 70px;
 margin-bottom: 30px;
-
 }
 
 .restaurant-content1{
@@ -55,8 +56,6 @@ margin-bottom: 30px;
 text-align: left;
 padding-left: 15px;
 padding-right: 15px;
-
-
 }
 
 .img-one{
@@ -68,32 +67,21 @@ padding-right: 15px;
   text-align: left;
   padding-left: 15px;
   padding-right: 15px;
-  
-  }
+}
 
   /* Menu */
 
-  
-#menu{
-
-  margin: 0px 200px;
-  
-  }
-  
   .menu-heading{
   
   margin-top: 70px;
   margin-bottom: 30px;
-  
-  }
+}
 
   .card{
 
     padding-left: 0px;
     padding-right: 0px;
-  
-
-  } 
+} 
 
   .card-title{
 
@@ -101,21 +89,18 @@ padding-right: 15px;
    margin-top: 15px;
    margin-bottom: 0px;
    padding-left: 12px;
-
-  }
+}
 
   .card-img-top{
 
     height: 200px;
-
-  }
+}
 
   .list-group{
 
     text-align: left;
     padding: 12px 20px 12px 20px;
-
-  }
+}
 
   .card-body{
     transition-property: all;
@@ -134,19 +119,16 @@ padding-right: 15px;
 
   margin-top: 70px;
   margin-bottom: 30px;
-
 }
 
 .reserve-img{
 
  opacity: 0.4;
-
 }
 
 .reserve-content1{
 
   position: relative;
-
 }
 
 .reserve-text{
@@ -156,20 +138,12 @@ padding-right: 15px;
   transform: translate(-50%, -50%);
 }
 
-.time-table{
-  margin-left: 200px;
-  margin-right: 200px;
-}
-
 .text-center{
   text-align: center;
 }
 
 .form-section{
 text-align: left;
-margin-left: 200px;
-margin-right: 200px;
-
 }
 
 .form-row{
@@ -184,17 +158,11 @@ label{
 
 /* Location */
 
-#our-location{
-  margin-left: 200px;
-  margin-right: 200px;
-}
-
 .location-heading{
   margin-top: 70px;
   margin-bottom: 30px;
   text-align: center;
-  
-}
+  }
 
 .container{
   text-align: left;
@@ -210,11 +178,31 @@ label{
   padding-right: 15px;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  [class*="col-12 col-4 "]{
+    width: 100%;
+  }
+  [class*="col-6"]{
+    width: 50%;
+  }
+  [class*="col-9"]{
+    width: 75%;
+  }
+  [class*="col-3"]{
+    width: 33.33%;
+  }
+}
+
+
 /* Footer */
 
 .footer-section{
-  margin: 20px 200px 30px;
-  
+  margin-top: 20px ;
+  margin-bottom: 30px;
 }
 
 .social-icon{
