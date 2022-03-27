@@ -17,6 +17,9 @@ body{
   margin-left: 0px !important;
   
 } 
+.navbar-collapse{
+  text-align: right;
+}
 
 .nav-item{
 
@@ -181,7 +184,7 @@ label{
 
 /* Location */
 
-#location{
+#our-location{
   margin-left: 200px;
   margin-right: 200px;
 }
@@ -210,12 +213,22 @@ label{
 /* Footer */
 
 .footer-section{
-  margin-top: 20px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin: 20px 200px 30px;
+  
 }
 
 .social-icon{
-  height: 2px;
-  width: 4px;
+  font-size: 25px;
+}
+
+.footer-text{
+  display: inline-block;
+}
+
+.footer-col{
+  margin-top: 15px;
+}
+
+.footer-col1{
+  margin-top: 20px;
 }
