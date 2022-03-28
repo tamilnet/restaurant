@@ -174,28 +174,31 @@ label{
 }
 
 .col-9{
-  padding-left: 15px;
+  padding-left: 0px;
   padding-right: 15px;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  [class*="col-"] {
+  /* [class*="col-"] {
     width: 100%;
-  }
-  [class*="col-12 col-4 "]{
+  } */
+  
+  /* [class*="col-4 "]{
     width: 100%;
   }
   [class*="col-6"]{
     width: 50%;
   }
   [class*="col-9"]{
-    width: 75%;
+    width: 100%;
   }
   [class*="col-3"]{
-    width: 33.33%;
+    width: 100%;
   }
-}
+} */ 
+
+
 
 
 /* Footer */
