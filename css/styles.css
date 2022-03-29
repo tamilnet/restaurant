@@ -1,108 +1,123 @@
 /*Body*/
 
-body{
+body {
 
   font-family: 'Merienda', cursive;
   text-align: center;
   font-size: 15px;
   line-height: 1.5;
   width: 100%;
-  }
+}
 
 /* Navigation Bar */
 
-.flag{
-  
+.flag {
+
   margin-top: 10px;
   margin-left: 0px !important;
-  } 
+}
 
-.navbar-collapse{
+.navbar-collapse {
   text-align: right;
 }
 
-.nav-item{
+.nav-item {
 
-margin-left: 20px;
+  margin-left: 20px;
 }
 
 /* Welcome */
 
-.margin-alignment{
+.margin-alignment {
   width: 70%;
   margin: auto;
 }
 
-.carousel-inner{
+@media only screen and (min-width: 768px) {
+  .margin-alignment {
+    width: 90%;
+    margin: auto;
+  }
+
+  .body {
+    width: 100%;
+  }
+}
+
+.carousel-inner {
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
 
-.carousel-caption{
+.carousel-caption {
 
-top: 400px !important;
-} 
+  top: 400px !important;
+}
 
 /* Restaurant */
 
-.restaurant-heading{
+.restaurant-heading {
 
-margin-top: 70px;
-margin-bottom: 30px;
+  margin-top: 70px;
+  margin-bottom: 30px;
 }
 
-.restaurant-content1{
-
-text-align: left;
-padding-left: 15px;
-padding-right: 15px;
-}
-
-.img-one{
-  width: 50%;
-}
-
-.restaurant-content2{
+.restaurant-content1 {
 
   text-align: left;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-  /* Menu */
+/* .img-one{
+  width: 50%;
+} */
 
-  .menu-heading{
-  
+.restaurant-content2 {
+
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Menu */
+
+.menu-heading {
+
   margin-top: 70px;
   margin-bottom: 30px;
 }
 
-  .card{
+.card {
 
-    padding-left: 0px;
-    padding-right: 0px;
-} 
-
-  .card-title{
-
-   text-align: left;
-   margin-top: 15px;
-   margin-bottom: 0px;
-   padding-left: 12px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-  .card-img-top{
+.card-title {
 
-    height: 200px;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  /* padding-left: 12px; */
 }
 
-  .list-group{
+.card-img-top {
 
-    text-align: left;
-    padding: 12px 20px 12px 20px;
+  height: 200px;
 }
 
-  .card-body{
+.list-group {
+  text-align: left;
+  padding: 0px 20px 0px 20px;
+}
+
+.list-group-item {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* .card-body{
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: ease;
@@ -111,92 +126,92 @@ padding-right: 15px;
     flex-shrink: 1;
     flex-basis: auto;
     padding: 1.25rem;
-}
+} */
 
 /* Reservation */
 
-.reservation-heading{
+.reservation-heading {
 
   margin-top: 70px;
   margin-bottom: 30px;
 }
 
-.reserve-img{
+.reserve-img {
 
- opacity: 0.4;
+  opacity: 0.4;
 }
 
-.reserve-content1{
+.reserve-content1 {
 
   position: relative;
 }
 
-.reserve-text{
+.reserve-text {
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
-.form-section{
-text-align: left;
+.form-section {
+  text-align: left;
 }
 
-.form-row{
+.form-row {
   padding-left: 5px;
   padding-right: 5px;
   margin-bottom: 16px;
 }
 
-label{
+label {
   margin-bottom: 0.5rem;
 }
 
 /* Location */
 
-.location-heading{
+.location-heading {
   margin-top: 70px;
   margin-bottom: 30px;
   text-align: center;
-  }
+}
 
-.container{
+.container {
   text-align: left;
 }
 
-.address{
+.address {
   text-align: left;
   padding-left: 10px;
 }
 
-.col-9{
+.col-9 {
   padding-left: 0px;
   padding-right: 15px;
 }
 
 /* Footer */
 
-.footer-section{
-  margin-top: 20px ;
+.footer-section {
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 
-.social-icon{
+.social-icon {
   font-size: 25px;
 }
 
-.footer-text{
+.footer-text {
   display: inline-block;
 }
 
-.footer-col{
+.footer-col {
   margin-top: 15px;
 }
 
-.footer-col1{
+.footer-col1 {
   margin-top: 20px;
 }
